@@ -3,24 +3,42 @@
 
 <?php include("header.php"); ?>
 
-<!-- index page content -->
+<?php include("slider.php"); ?>
 
-<p>
-  <div class="container teal lighten-3 flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eum explicabo culpa, labore ea id voluptates laboriosam magni nesciunt reiciendis doloremque nostrum minus animi consectetur nobis necessitatibus corrupti excepturi ullam!</div>
-</p>
-<p>
-  <div class="container teal lighten-3 flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere harum laborum tenetur ad consequuntur suscipit sunt qui accusantium ab! Possimus sint modi aut consectetur reprehenderit impedit sunt eum quasi non!</div>
-</p>
-<p>
-  <div class="container teal lighten-3 flow-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate deleniti eveniet distinctio quas error exercitationem aut totam deserunt teal lighten-3, consequuntur iusto quidem molestiae tenetur debitis aspernatur maxime? Natus, laboriosam veritatis!</div>
-</p>
-<p>
-  <div class="container teal lighten-3 flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sunt eaque suscipit. Blanditiis esse, incidunt impedit ipsa quod officia deleniti! Nesciunt minima reprehenderit rerum aperiam voluptatem dignissimos quam ullam laboriosam.</div>
-</p>
-<p>
-  <div class="container teal lighten-3 flow-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, vitae! Laudantium, natus expedita, adipisci porro delectus unde cupiditate voluptatem illo repellat harum eum, voluptatum labore culpa sequi. Obcaecati, tempora veniam.</div>
-</p>
 
+
+<div class="container center">
+  <p class="container"><h2>Our Services</h2></p>
+</div>
+
+<?php include("services.php"); ?>
+
+<div class="parallax-container">
+  <div class="parallax"><img src="https://ununsplash.imgix.net/photo-1414849424631-8b18529a81ca?q=75&fm=jpg&s=0e993004a2f3704e8f2ad5469315ccb7" alt=""></div>
+</div>
+
+<div class="container center">
+  <p class="container"><h2>Our Team</h2></p>
+</div>
+
+<?php include("team.php"); ?>
+
+<main>
+<!-- Slider/Carousel -->
+
+  <!-- <div class="carousel carousel-slider" style="height: 400px;">
+    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/2" alt=""></a>
+    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/3" alt=""></a>
+    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/4" alt=""></a>
+    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/5" alt=""></a>
+  </div> -->
+<!-- Services -->
+
+<!-- Contact -->
+
+<!-- Founders/Portfolios -->
+
+</main>
 <?php include("footer.php"); ?>
 
 </html>

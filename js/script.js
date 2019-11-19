@@ -1,12 +1,18 @@
 $(document).ready(function() {
   console.log("Hello World");
 
-  $(".sidenav").sidenav();
-  $(".dropdown").dropdown();
+  // All Materialize classes auto initialised
+  M.AutoInit();
 
-  
+  $(".slider").slider();
 
-// document.addEventListener('DOMContentLoaded', function() {
-//   var elems = document.querySelectorAll('.sidenav');
-//   var instances = M.Sidenav.init(elems, options);
-// });
+  /* var typed = new Typed(".element", {
+    // Waits 1000ms after typing "First"
+    strings: ["This is HTML ^2000", "This is CSS ^2000"],
+    smartBackspace: true
+  }); */
+
+  /* var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings'
+  }); */
+});

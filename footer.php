@@ -20,9 +20,11 @@
   </div>
 </footer>
 
+
 <!-- External script files -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/materialize.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
 <!-- Internal script files -->
 <script src="js/script.js"></script>
